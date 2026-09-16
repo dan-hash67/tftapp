@@ -129,8 +129,9 @@ consume the same SQLite catalog as it grows.
 ## Deploy the web page with Vercel
 
 The browser prototype is a dependency-free static site in `web/`. The root
-`vercel.json` rewrites the public URL to that folder, so no Node.js build step
-or environment variables are required.
+`vercel.json` explicitly allowlists that folder as static output and routes the
+public URL to it, so no Node.js build step or environment variables are
+required.
 
 From the repository root, either import the GitHub repository in Vercel or run:
 
