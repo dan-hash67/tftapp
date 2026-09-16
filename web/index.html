@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Offline TFT trait web">
+    <title>TFT Trait Web</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">PyGooey catalog prototype</p>
+        <h1 id="app-title">TFT catalog <span>trait web</span></h1>
+        <p class="subtitle">A static, offline view of which units connect each trait.</p>
+      </div>
+      <div class="source-pill" id="dataset-status">Loading catalog…</div>
+    </header>
+
+    <main class="page-shell">
+      <section class="team-code-card" aria-labelledby="team-code-title">
+        <div class="team-code-heading">
+          <div>
+            <p class="eyebrow">Team Planner bridge</p>
+            <h2 id="team-code-title">Import, modify, export</h2>
+            <p>Paste a team code, edit local slots, then copy the updated code.</p>
+          </div>
+          <div class="team-code-actions">
+            <input id="team-code-input" type="text" spellcheck="false" placeholder="Paste team code" aria-label="Team code">
+            <button id="import-code" type="button">Import team</button>
+            <button id="add-slot" type="button">+ Add blank slot</button>
+            <button id="export-code" type="button" disabled>Copy export</button>
+          </div>
+        </div>
+        <div id="team-code-message" class="team-code-message" aria-live="polite">Import a code or add a blank slot. Double-click a unit in the web to add it to the planner.</div>
+        <div id="team-slots" class="team-slots" aria-label="Editable team slots"></div>
+        <div id="team-traits" class="team-traits" aria-label="Active and inactive traits">
+          <div class="trait-group">
+            <span class="trait-group-label">Active</span>
+            <div id="active-traits" class="trait-badges"></div>
+          </div>
+          <div class="trait-group">
+            <span class="trait-group-label">Not active</span>
+            <div id="inactive-traits" class="trait-badges"></div>
+          </div>
+        </div>
+        <section class="recommendation-panel" aria-labelledby="recommendation-title">
+          <div class="recommendation-heading">
+            <div>
+              <p class="eyebrow">Flex assistant</p>
+              <h3 id="recommendation-title">Suggested flexes</h3>
+              <p>Cross out an unavailable unit from its detail card to find graph-connected replacements.</p>
+            </div>
+          </div>
+          <div id="recommendation-list" class="recommendation-list" aria-live="polite">
+            <p class="recommendation-empty">Add a unit to the planner to see suggestions.</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="graph-layout">
+        <section id="trait-web" class="graph-card" aria-live="polite">
+          <p class="loading">Loading the local catalog…</p>
+        </section>
+        <aside id="selection" class="selection-card" aria-live="polite">
+          <p class="eyebrow">Trace the web</p>
+          <h2>Select a unit or trait</h2>
+          <p>Hover a node to highlight its connections. Click a unit to keep its links highlighted; click it again or elsewhere to release it.</p>
+          <div class="legend">
+            <span><i class="legend-dot unit-dot"></i>Units around the rim</span>
+            <span><i class="legend-dot trait-dot"></i>Traits in the web</span>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <span>Manual planner foundation · no overlay · no network required at runtime</span>
+      <span>Generated from the bundled SQLite catalog</span>
+    </footer>
+
+    <script src="recommendations/engine.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

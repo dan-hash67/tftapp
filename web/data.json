@@ -1,0 +1,4144 @@
+{
+  "dataset": {
+    "name": "TFT Set 18",
+    "set_id": "TFTSet18",
+    "language": "en_US",
+    "status": "PBE snapshot; verify against the live set before release",
+    "visual_min_trait_connections": 2,
+    "visual_hidden_traits": [
+      "Avatar"
+    ],
+    "default_trait_activation_threshold": 2,
+    "trait_activation_thresholds": {
+      "Elderwood": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "Avatar": [
+        1
+      ],
+      "Ravager": [
+        2,
+        4,
+        6
+      ],
+      "Bounty Seeker": [
+        1
+      ],
+      "Solar": [
+        3
+      ],
+      "Sprykin": [
+        3,
+        5,
+        7
+      ],
+      "Adaptor": [
+        2,
+        3,
+        4
+      ],
+      "Coven": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "Hunter": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "Old Growth": [
+        1
+      ],
+      "Monolith": [
+        1
+      ],
+      "Primal": [
+        2,
+        4
+      ],
+      "Greenfather": [
+        1
+      ],
+      "Invoker": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "Rapidfire": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "Juggernaut": [
+        2,
+        4,
+        6
+      ],
+      "Inferno": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "Attuned": [
+        1
+      ],
+      "Rival": [
+        1,
+        2
+      ],
+      "Vanguard": [
+        2,
+        4,
+        6
+      ],
+      "Brawler": [
+        2,
+        4,
+        6
+      ],
+      "Blackthorn": [
+        2,
+        4,
+        6
+      ],
+      "Executioner": [
+        2,
+        3,
+        4
+      ],
+      "Apex Predator": [
+        1
+      ],
+      "Riftbeast": [
+        3,
+        5,
+        7,
+        10
+      ],
+      "Caustic": [
+        1
+      ],
+      "Fae": [
+        2,
+        4
+      ],
+      "Lunar": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "Defender": [
+        2,
+        4,
+        6
+      ],
+      "Spellweaver": [
+        2,
+        4,
+        6
+      ],
+      "Thornmaiden": [
+        1
+      ],
+      "Flora Fatalis": [
+        1,
+        2
+      ],
+      "Summoner": [
+        2,
+        3
+      ],
+      "Blossom": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "Emerald Aspect": [
+        1
+      ]
+    },
+    "local_board_slot_limit": 15,
+    "recommendation": {
+      "max_suggestions": 5,
+      "max_bundle_size": 3,
+      "max_drops": 4,
+      "candidate_pool_size": 12,
+      "weights": {
+        "cost": 1.5,
+        "progress": 2,
+        "breakpoint": 8,
+        "synergy": 2,
+        "focus": 1.5,
+        "lostBreakpoint": 14,
+        "orphan": 4,
+        "drop": 1.5,
+        "dropCost": 0.5,
+        "role": 8,
+        "roleGap": 5
+      }
+    },
+    "source_url": "https://raw.communitydragon.org/pbe/cdragon/tft/en_us.json",
+    "seed_reference_url": "https://raw.githubusercontent.com/nkhoit/tftkit/refs/heads/main/set18-roster.json",
+    "retrieved_at": "2026-09-15"
+  },
+  "teamCode": {
+    "enabled": true,
+    "prefix": "02",
+    "setId": "TFTSet18",
+    "slotCount": 10,
+    "localSlotLimit": 15
+  },
+  "units": [
+    {
+      "id": "TFT18_Akali",
+      "name": "Akali",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Akali.png",
+      "plannerCode": 1002,
+      "traitPoints": {
+        "trait_adaptor": 1,
+        "trait_inferno": 1,
+        "trait_ravager": 1
+      }
+    },
+    {
+      "id": "TFT18_Camille",
+      "name": "Camille",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Camille.png",
+      "plannerCode": 1013,
+      "traitPoints": {
+        "trait_coven": 1,
+        "trait_ravager": 1
+      }
+    },
+    {
+      "id": "TFT18_Cinderling",
+      "name": "Cinderling",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Cinderling.png",
+      "plannerCode": 1015,
+      "traitPoints": {
+        "trait_hunter": 1,
+        "trait_riftbeast": 1
+      }
+    },
+    {
+      "id": "TFT18_Karma",
+      "name": "Karma",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Karma.png",
+      "plannerCode": 1031,
+      "traitPoints": {
+        "trait_blossom": 1,
+        "trait_spellweaver": 1
+      }
+    },
+    {
+      "id": "TFT18_Kobuko",
+      "name": "Kobuko",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Kobuko.png",
+      "plannerCode": 1085,
+      "traitPoints": {
+        "trait_brawler": 1,
+        "trait_sprykin": 1
+      }
+    },
+    {
+      "id": "TFT18_Leona",
+      "name": "Leona",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Leona.png",
+      "plannerCode": 1041,
+      "traitPoints": {
+        "trait_defender": 1,
+        "trait_solar": 1
+      }
+    },
+    {
+      "id": "TFT18_Ornn",
+      "name": "Ornn",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Ornn.png",
+      "plannerCode": 1055,
+      "traitPoints": {
+        "trait_defender": 1,
+        "trait_elderwood": 1
+      }
+    },
+    {
+      "id": "TFT18_Pebbles",
+      "name": "Pebbles",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Pebbles.png",
+      "plannerCode": 1065,
+      "traitPoints": {
+        "trait_invoker": 1,
+        "trait_riftbeast": 1
+      }
+    },
+    {
+      "id": "TFT18_Rakan",
+      "name": "Rakan",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Rakan.png",
+      "plannerCode": 1056,
+      "traitPoints": {
+        "trait_fae": 1,
+        "trait_juggernaut": 1,
+        "trait_vanguard": 1
+      }
+    },
+    {
+      "id": "TFT18_RekSai",
+      "name": "Rek'Sai",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_RekSai.png",
+      "plannerCode": 1059,
+      "traitPoints": {
+        "trait_blackthorn": 1,
+        "trait_brawler": 1
+      }
+    },
+    {
+      "id": "TFT18_Varus",
+      "name": "Varus",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Varus.png",
+      "plannerCode": 1077,
+      "traitPoints": {
+        "trait_inferno": 1,
+        "trait_rapidfire": 1
+      }
+    },
+    {
+      "id": "TFT18_Veigar",
+      "name": "Veigar",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Veigar.png",
+      "plannerCode": 1078,
+      "traitPoints": {
+        "trait_blackthorn": 1,
+        "trait_spellweaver": 1,
+        "trait_sprykin": 1
+      }
+    },
+    {
+      "id": "TFT18_Xayah",
+      "name": "Xayah",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Xayah.png",
+      "plannerCode": 1081,
+      "traitPoints": {
+        "trait_elderwood": 1,
+        "trait_fae": 1,
+        "trait_rapidfire": 1
+      }
+    },
+    {
+      "id": "TFT18_Yorick",
+      "name": "Yorick",
+      "cost": 1,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Yorick.png",
+      "plannerCode": 1082,
+      "traitPoints": {
+        "trait_blossom": 1,
+        "trait_juggernaut": 1,
+        "trait_summoner": 1
+      }
+    },
+    {
+      "id": "TFT18_Alistar",
+      "name": "Alistar",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Alistar.png",
+      "plannerCode": 1003,
+      "traitPoints": {
+        "trait_brawler": 1,
+        "trait_elderwood": 1
+      }
+    },
+    {
+      "id": "TFT18_Caitlyn",
+      "name": "Caitlyn",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Caitlyn.png",
+      "plannerCode": 1012,
+      "traitPoints": {
+        "trait_coven": 1,
+        "trait_hunter": 1
+      }
+    },
+    {
+      "id": "TFT18_Elise",
+      "name": "Elise",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Elise.png",
+      "plannerCode": 1021,
+      "traitPoints": {
+        "trait_coven": 1,
+        "trait_vanguard": 1
+      }
+    },
+    {
+      "id": "TFT18_Gromp",
+      "name": "Gromp",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Gromp.png",
+      "plannerCode": 1026,
+      "traitPoints": {
+        "trait_adaptor": 1,
+        "trait_riftbeast": 1
+      }
+    },
+    {
+      "id": "TFT18_Kayle",
+      "name": "Kayle",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Kayle.png",
+      "plannerCode": 1034,
+      "traitPoints": {
+        "trait_rapidfire": 1,
+        "trait_solar": 1
+      }
+    },
+    {
+      "id": "TFT18_LeBlanc",
+      "name": "LeBlanc",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LeBlanc.png",
+      "plannerCode": 1040,
+      "traitPoints": {
+        "trait_elderwood": 1,
+        "trait_spellweaver": 1
+      }
+    },
+    {
+      "id": "TFT18_Murkwolf",
+      "name": "Murkwolf",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Murkwolf.png",
+      "plannerCode": 1049,
+      "traitPoints": {
+        "trait_ravager": 1,
+        "trait_riftbeast": 1
+      }
+    },
+    {
+      "id": "TFT18_Scuttlecrab",
+      "name": "Scuttlecrab",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Scuttlecrab.png",
+      "plannerCode": 1062,
+      "traitPoints": {
+        "trait_juggernaut": 1,
+        "trait_riftbeast": 1
+      }
+    },
+    {
+      "id": "TFT18_Sejuani",
+      "name": "Sejuani",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Sejuani.png",
+      "plannerCode": 1063,
+      "traitPoints": {
+        "trait_juggernaut": 1,
+        "trait_solar": 1
+      }
+    },
+    {
+      "id": "TFT18_Shen",
+      "name": "Shen",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Shen.png",
+      "plannerCode": 1067,
+      "traitPoints": {
+        "trait_defender": 1,
+        "trait_inferno": 1
+      }
+    },
+    {
+      "id": "TFT18_Teemo",
+      "name": "Teemo",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Teemo.png",
+      "plannerCode": 1073,
+      "traitPoints": {
+        "trait_invoker": 1,
+        "trait_sprykin": 1
+      }
+    },
+    {
+      "id": "TFT18_Warwick",
+      "name": "Warwick",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Warwick.png",
+      "plannerCode": 1080,
+      "traitPoints": {
+        "trait_blackthorn": 1,
+        "trait_ravager": 1
+      }
+    },
+    {
+      "id": "TFT18_Yunara",
+      "name": "Yunara",
+      "cost": 2,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Yunara.png",
+      "plannerCode": 1083,
+      "traitPoints": {
+        "trait_blossom": 1,
+        "trait_executioner": 1
+      }
+    },
+    {
+      "id": "TFT18_Azir",
+      "name": "Azir",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Azir.png",
+      "plannerCode": 1009,
+      "traitPoints": {
+        "trait_blackthorn": 1,
+        "trait_executioner": 1,
+        "trait_summoner": 1
+      }
+    },
+    {
+      "id": "TFT18_Cassiopeia",
+      "name": "Cassiopeia",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Cassiopeia.png",
+      "plannerCode": 1014,
+      "traitPoints": {
+        "trait_coven": 1,
+        "trait_spellweaver": 1
+      }
+    },
+    {
+      "id": "TFT18_Diana",
+      "name": "Diana",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "damage",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Diana.png",
+      "plannerCode": 1018,
+      "traitPoints": {
+        "trait_lunar": 1,
+        "trait_ravager": 1,
+        "trait_vanguard": 1
+      }
+    },
+    {
+      "id": "TFT18_Fiddlesticks",
+      "name": "Fiddlesticks",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "damage",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Fiddlesticks.png",
+      "plannerCode": 1024,
+      "traitPoints": {
+        "trait_defender": 1,
+        "trait_flora_fatalis": 1,
+        "trait_spellweaver": 1
+      }
+    },
+    {
+      "id": "TFT18_Hecarim",
+      "name": "Hecarim",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Hecarim.png",
+      "plannerCode": 1027,
+      "traitPoints": {
+        "trait_elderwood": 1,
+        "trait_vanguard": 1
+      }
+    },
+    {
+      "id": "TFT18_KhaZix",
+      "name": "Kha'Zix",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_KhaZix.png",
+      "plannerCode": 1036,
+      "traitPoints": {
+        "trait_rival": 1
+      }
+    },
+    {
+      "id": "TFT18_KogMaw",
+      "name": "Kog'Maw",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_KogMaw.png",
+      "plannerCode": 1038,
+      "traitPoints": {
+        "trait_adaptor": 1,
+        "trait_invoker": 1
+      }
+    },
+    {
+      "id": "TFT18_Krug",
+      "name": "Krug",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Krug.png",
+      "plannerCode": 1039,
+      "traitPoints": {
+        "trait_brawler": 1,
+        "trait_riftbeast": 1
+      }
+    },
+    {
+      "id": "TFT18_MasterYi",
+      "name": "Master Yi",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_MasterYi.png",
+      "plannerCode": 1046,
+      "traitPoints": {
+        "trait_adaptor": 1,
+        "trait_blossom": 1
+      }
+    },
+    {
+      "id": "TFT18_Rammus",
+      "name": "Rammus",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Rammus.png",
+      "plannerCode": 1057,
+      "traitPoints": {
+        "trait_defender": 1,
+        "trait_sprykin": 1
+      }
+    },
+    {
+      "id": "TFT18_Raptor",
+      "name": "Raptor",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Raptor.png",
+      "plannerCode": 1058,
+      "traitPoints": {
+        "trait_rapidfire": 1,
+        "trait_riftbeast": 1,
+        "trait_summoner": 1
+      }
+    },
+    {
+      "id": "TFT18_Rengar",
+      "name": "Rengar",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Rengar.png",
+      "plannerCode": 1060,
+      "traitPoints": {
+        "trait_rival": 1
+      }
+    },
+    {
+      "id": "TFT18_Tristana",
+      "name": "Tristana",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Tristana.png",
+      "plannerCode": 1075,
+      "traitPoints": {
+        "trait_fae": 1,
+        "trait_hunter": 1,
+        "trait_sprykin": 1
+      }
+    },
+    {
+      "id": "TFT18_Vi",
+      "name": "Vi",
+      "cost": 3,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Vi.png",
+      "plannerCode": 1079,
+      "traitPoints": {
+        "trait_juggernaut": 1,
+        "trait_primal": 1
+      }
+    },
+    {
+      "id": "TFT18_Ahri",
+      "name": "Ahri",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Ahri.png",
+      "plannerCode": 1001,
+      "traitPoints": {
+        "trait_blossom": 1,
+        "trait_spellweaver": 1
+      }
+    },
+    {
+      "id": "TFT18_Amumu",
+      "name": "Amumu",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Amumu.png",
+      "plannerCode": 1005,
+      "traitPoints": {
+        "trait_inferno": 1,
+        "trait_juggernaut": 1
+      }
+    },
+    {
+      "id": "TFT18_AncientSentinel",
+      "name": "Ancient Sentinel",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_AncientSentinel.png",
+      "plannerCode": 1064,
+      "traitPoints": {
+        "trait_invoker": 1,
+        "trait_riftbeast": 1,
+        "trait_vanguard": 1
+      }
+    },
+    {
+      "id": "TFT18_Aphelios",
+      "name": "Aphelios",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Aphelios.png",
+      "plannerCode": 1007,
+      "traitPoints": {
+        "trait_lunar": 1,
+        "trait_rapidfire": 1
+      }
+    },
+    {
+      "id": "TFT18_Brambleback",
+      "name": "Brambleback",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Brambleback.png",
+      "plannerCode": 1011,
+      "traitPoints": {
+        "trait_ravager": 1,
+        "trait_riftbeast": 1
+      }
+    },
+    {
+      "id": "TFT18_Ezreal",
+      "name": "Ezreal",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Ezreal.png",
+      "plannerCode": 1023,
+      "traitPoints": {
+        "trait_elderwood": 1,
+        "trait_executioner": 1
+      }
+    },
+    {
+      "id": "TFT18_Lillia",
+      "name": "Lillia",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Lillia.png",
+      "plannerCode": 1042,
+      "traitPoints": {
+        "trait_defender": 1,
+        "trait_fae": 1
+      }
+    },
+    {
+      "id": "TFT18_Malphite",
+      "name": "Malphite",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Malphite.png",
+      "plannerCode": 1044,
+      "traitPoints": {
+        "trait_blackthorn": 1
+      }
+    },
+    {
+      "id": "TFT18_Morgana",
+      "name": "Morgana",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Morgana.png",
+      "plannerCode": 1048,
+      "traitPoints": {
+        "trait_coven": 1,
+        "trait_invoker": 1
+      }
+    },
+    {
+      "id": "TFT18_Nidalee",
+      "name": "Nidalee",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Nidalee.png",
+      "plannerCode": 1051,
+      "traitPoints": {
+        "trait_adaptor": 1,
+        "trait_primal": 1
+      }
+    },
+    {
+      "id": "TFT18_Sett",
+      "name": "Sett",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Sett.png",
+      "plannerCode": 1066,
+      "traitPoints": {
+        "trait_blossom": 1,
+        "trait_brawler": 1
+      }
+    },
+    {
+      "id": "TFT18_Sivir",
+      "name": "Sivir",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Sivir.png",
+      "plannerCode": 1068,
+      "traitPoints": {
+        "trait_hunter": 1,
+        "trait_primal": 1
+      }
+    },
+    {
+      "id": "TFT18_Soraka",
+      "name": "Soraka",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Soraka.png",
+      "plannerCode": 1070,
+      "traitPoints": {
+        "trait_executioner": 1,
+        "trait_flora_fatalis": 1
+      }
+    },
+    {
+      "id": "TFT18_Zyra",
+      "name": "Zyra",
+      "cost": 4,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Zyra.png",
+      "plannerCode": 1084,
+      "traitPoints": {
+        "trait_summoner": 1
+      }
+    },
+    {
+      "id": "TFT18_Alune",
+      "name": "Alune",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Alune.png",
+      "plannerCode": 1004,
+      "traitPoints": {
+        "trait_lunar": 1,
+        "trait_spellweaver": 1
+      }
+    },
+    {
+      "id": "TFT18_Ashe",
+      "name": "Ashe",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Ashe.png",
+      "plannerCode": 1008,
+      "traitPoints": {
+        "trait_blossom": 1,
+        "trait_hunter": 1
+      }
+    },
+    {
+      "id": "TFT18_Draven",
+      "name": "Draven",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Draven.png",
+      "plannerCode": 1019,
+      "traitPoints": {}
+    },
+    {
+      "id": "TFT18_ElderDragon",
+      "name": "Elder Dragon",
+      "cost": 5,
+      "boardSlots": 2,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "damage",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_ElderDragon.png",
+      "plannerCode": 1020,
+      "traitPoints": {
+        "trait_riftbeast": 2
+      }
+    },
+    {
+      "id": "TFT18_Gnar",
+      "name": "Gnar",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "crowd_control",
+        "damage",
+        "frontline"
+      ],
+      "icon": "assets/units/TFT18_Gnar.png",
+      "plannerCode": 1025,
+      "traitPoints": {
+        "trait_brawler": 1,
+        "trait_elderwood": 1,
+        "trait_sprykin": 1
+      }
+    },
+    {
+      "id": "TFT18_Ivern",
+      "name": "Ivern",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Ivern.png",
+      "plannerCode": 1028,
+      "traitPoints": {}
+    },
+    {
+      "id": "TFT18_Kennen",
+      "name": "Kennen",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "carry",
+        "crowd_control",
+        "damage"
+      ],
+      "icon": "assets/units/TFT18_Kennen.png",
+      "plannerCode": 1035,
+      "traitPoints": {
+        "trait_executioner": 1,
+        "trait_inferno": 1
+      }
+    },
+    {
+      "id": "TFT18_LuxEldritch",
+      "name": "Lux (Blackthorn)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxEldritch.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_blackthorn": 2
+      }
+    },
+    {
+      "id": "TFT18_LuxBlossom",
+      "name": "Lux (Blossom)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxBlossom.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_blossom": 2
+      }
+    },
+    {
+      "id": "TFT18_LuxCoven",
+      "name": "Lux (Coven)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxCoven.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_coven": 2
+      }
+    },
+    {
+      "id": "TFT18_LuxElderwood",
+      "name": "Lux (Elderwood)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxElderwood.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_elderwood": 2
+      }
+    },
+    {
+      "id": "TFT18_LuxFae",
+      "name": "Lux (Fae)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxFae.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_fae": 2
+      }
+    },
+    {
+      "id": "TFT18_LuxInferno",
+      "name": "Lux (Inferno)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxInferno.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_inferno": 2
+      }
+    },
+    {
+      "id": "TFT18_LuxLunar",
+      "name": "Lux (Lunar)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxLunar.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_lunar": 2
+      }
+    },
+    {
+      "id": "TFT18_LuxPrimal",
+      "name": "Lux (Primal)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxPrimal.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_primal": 2
+      }
+    },
+    {
+      "id": "TFT18_LuxSolar",
+      "name": "Lux (Solar)",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": "lux",
+      "roleTags": [
+        "carry",
+        "damage",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_LuxSolar.png",
+      "plannerCode": 1029,
+      "traitPoints": {
+        "trait_solar": 2
+      }
+    },
+    {
+      "id": "TFT18_Maokai",
+      "name": "Maokai",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Maokai.png",
+      "plannerCode": 1045,
+      "traitPoints": {
+        "trait_juggernaut": 1
+      }
+    },
+    {
+      "id": "TFT18_Taric",
+      "name": "Taric",
+      "cost": 5,
+      "boardSlots": 1,
+      "uniqueGroup": null,
+      "roleTags": [
+        "frontline",
+        "support"
+      ],
+      "icon": "assets/units/TFT18_Taric.png",
+      "plannerCode": 1072,
+      "traitPoints": {
+        "trait_vanguard": 1
+      }
+    }
+  ],
+  "traits": [
+    {
+      "id": "trait_adaptor",
+      "name": "Adaptor",
+      "icon": "assets/traits/trait_adaptor.png",
+      "activationThresholds": [
+        2,
+        3,
+        4
+      ],
+      "units": [
+        {
+          "id": "TFT18_Akali",
+          "name": "Akali",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Akali.png",
+          "plannerCode": 1002,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_inferno": 1,
+            "trait_ravager": 1
+          }
+        },
+        {
+          "id": "TFT18_Gromp",
+          "name": "Gromp",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Gromp.png",
+          "plannerCode": 1026,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_KogMaw",
+          "name": "Kog'Maw",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_KogMaw.png",
+          "plannerCode": 1038,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_invoker": 1
+          }
+        },
+        {
+          "id": "TFT18_MasterYi",
+          "name": "Master Yi",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_MasterYi.png",
+          "plannerCode": 1046,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_blossom": 1
+          }
+        },
+        {
+          "id": "TFT18_Nidalee",
+          "name": "Nidalee",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Nidalee.png",
+          "plannerCode": 1051,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_primal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_blackthorn",
+      "name": "Blackthorn",
+      "icon": "assets/traits/trait_blackthorn.png",
+      "activationThresholds": [
+        2,
+        4,
+        6
+      ],
+      "units": [
+        {
+          "id": "TFT18_RekSai",
+          "name": "Rek'Sai",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_RekSai.png",
+          "plannerCode": 1059,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_brawler": 1
+          }
+        },
+        {
+          "id": "TFT18_Veigar",
+          "name": "Veigar",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Veigar.png",
+          "plannerCode": 1078,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_spellweaver": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Warwick",
+          "name": "Warwick",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Warwick.png",
+          "plannerCode": 1080,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_ravager": 1
+          }
+        },
+        {
+          "id": "TFT18_Azir",
+          "name": "Azir",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Azir.png",
+          "plannerCode": 1009,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_executioner": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_Malphite",
+          "name": "Malphite",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Malphite.png",
+          "plannerCode": 1044,
+          "traitPoints": {
+            "trait_blackthorn": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxEldritch",
+          "name": "Lux (Blackthorn)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxEldritch.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_blackthorn": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_blossom",
+      "name": "Blossom",
+      "icon": "assets/traits/trait_blossom.png",
+      "activationThresholds": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "units": [
+        {
+          "id": "TFT18_Karma",
+          "name": "Karma",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Karma.png",
+          "plannerCode": 1031,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Yorick",
+          "name": "Yorick",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Yorick.png",
+          "plannerCode": 1082,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_juggernaut": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_Yunara",
+          "name": "Yunara",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Yunara.png",
+          "plannerCode": 1083,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_executioner": 1
+          }
+        },
+        {
+          "id": "TFT18_MasterYi",
+          "name": "Master Yi",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_MasterYi.png",
+          "plannerCode": 1046,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_blossom": 1
+          }
+        },
+        {
+          "id": "TFT18_Ahri",
+          "name": "Ahri",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Ahri.png",
+          "plannerCode": 1001,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Sett",
+          "name": "Sett",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Sett.png",
+          "plannerCode": 1066,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_brawler": 1
+          }
+        },
+        {
+          "id": "TFT18_Ashe",
+          "name": "Ashe",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Ashe.png",
+          "plannerCode": 1008,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_hunter": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxBlossom",
+          "name": "Lux (Blossom)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxBlossom.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_blossom": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_brawler",
+      "name": "Brawler",
+      "icon": "assets/traits/trait_brawler.png",
+      "activationThresholds": [
+        2,
+        4,
+        6
+      ],
+      "units": [
+        {
+          "id": "TFT18_Kobuko",
+          "name": "Kobuko",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Kobuko.png",
+          "plannerCode": 1085,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_RekSai",
+          "name": "Rek'Sai",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_RekSai.png",
+          "plannerCode": 1059,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_brawler": 1
+          }
+        },
+        {
+          "id": "TFT18_Alistar",
+          "name": "Alistar",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Alistar.png",
+          "plannerCode": 1003,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_elderwood": 1
+          }
+        },
+        {
+          "id": "TFT18_Krug",
+          "name": "Krug",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Krug.png",
+          "plannerCode": 1039,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Sett",
+          "name": "Sett",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Sett.png",
+          "plannerCode": 1066,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_brawler": 1
+          }
+        },
+        {
+          "id": "TFT18_Gnar",
+          "name": "Gnar",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Gnar.png",
+          "plannerCode": 1025,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_elderwood": 1,
+            "trait_sprykin": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_coven",
+      "name": "Coven",
+      "icon": "assets/traits/trait_coven.png",
+      "activationThresholds": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "units": [
+        {
+          "id": "TFT18_Camille",
+          "name": "Camille",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Camille.png",
+          "plannerCode": 1013,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_ravager": 1
+          }
+        },
+        {
+          "id": "TFT18_Caitlyn",
+          "name": "Caitlyn",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Caitlyn.png",
+          "plannerCode": 1012,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_hunter": 1
+          }
+        },
+        {
+          "id": "TFT18_Elise",
+          "name": "Elise",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Elise.png",
+          "plannerCode": 1021,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Cassiopeia",
+          "name": "Cassiopeia",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Cassiopeia.png",
+          "plannerCode": 1014,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Morgana",
+          "name": "Morgana",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Morgana.png",
+          "plannerCode": 1048,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_invoker": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxCoven",
+          "name": "Lux (Coven)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxCoven.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_coven": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_defender",
+      "name": "Defender",
+      "icon": "assets/traits/trait_defender.png",
+      "activationThresholds": [
+        2,
+        4,
+        6
+      ],
+      "units": [
+        {
+          "id": "TFT18_Leona",
+          "name": "Leona",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Leona.png",
+          "plannerCode": 1041,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_solar": 1
+          }
+        },
+        {
+          "id": "TFT18_Ornn",
+          "name": "Ornn",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Ornn.png",
+          "plannerCode": 1055,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_elderwood": 1
+          }
+        },
+        {
+          "id": "TFT18_Shen",
+          "name": "Shen",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Shen.png",
+          "plannerCode": 1067,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_inferno": 1
+          }
+        },
+        {
+          "id": "TFT18_Fiddlesticks",
+          "name": "Fiddlesticks",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Fiddlesticks.png",
+          "plannerCode": 1024,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_flora_fatalis": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Rammus",
+          "name": "Rammus",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Rammus.png",
+          "plannerCode": 1057,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Lillia",
+          "name": "Lillia",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Lillia.png",
+          "plannerCode": 1042,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_fae": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_elderwood",
+      "name": "Elderwood",
+      "icon": "assets/traits/trait_elderwood.png",
+      "activationThresholds": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "units": [
+        {
+          "id": "TFT18_Ornn",
+          "name": "Ornn",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Ornn.png",
+          "plannerCode": 1055,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_elderwood": 1
+          }
+        },
+        {
+          "id": "TFT18_Xayah",
+          "name": "Xayah",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Xayah.png",
+          "plannerCode": 1081,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_fae": 1,
+            "trait_rapidfire": 1
+          }
+        },
+        {
+          "id": "TFT18_Alistar",
+          "name": "Alistar",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Alistar.png",
+          "plannerCode": 1003,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_elderwood": 1
+          }
+        },
+        {
+          "id": "TFT18_LeBlanc",
+          "name": "LeBlanc",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LeBlanc.png",
+          "plannerCode": 1040,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Hecarim",
+          "name": "Hecarim",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Hecarim.png",
+          "plannerCode": 1027,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Ezreal",
+          "name": "Ezreal",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Ezreal.png",
+          "plannerCode": 1023,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_executioner": 1
+          }
+        },
+        {
+          "id": "TFT18_Gnar",
+          "name": "Gnar",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Gnar.png",
+          "plannerCode": 1025,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_elderwood": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxElderwood",
+          "name": "Lux (Elderwood)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxElderwood.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_elderwood": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_executioner",
+      "name": "Executioner",
+      "icon": "assets/traits/trait_executioner.png",
+      "activationThresholds": [
+        2,
+        3,
+        4
+      ],
+      "units": [
+        {
+          "id": "TFT18_Yunara",
+          "name": "Yunara",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Yunara.png",
+          "plannerCode": 1083,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_executioner": 1
+          }
+        },
+        {
+          "id": "TFT18_Azir",
+          "name": "Azir",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Azir.png",
+          "plannerCode": 1009,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_executioner": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_Ezreal",
+          "name": "Ezreal",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Ezreal.png",
+          "plannerCode": 1023,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_executioner": 1
+          }
+        },
+        {
+          "id": "TFT18_Soraka",
+          "name": "Soraka",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Soraka.png",
+          "plannerCode": 1070,
+          "traitPoints": {
+            "trait_executioner": 1,
+            "trait_flora_fatalis": 1
+          }
+        },
+        {
+          "id": "TFT18_Kennen",
+          "name": "Kennen",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "crowd_control",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Kennen.png",
+          "plannerCode": 1035,
+          "traitPoints": {
+            "trait_executioner": 1,
+            "trait_inferno": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_fae",
+      "name": "Fae",
+      "icon": "assets/traits/trait_fae.png",
+      "activationThresholds": [
+        2,
+        4
+      ],
+      "units": [
+        {
+          "id": "TFT18_Rakan",
+          "name": "Rakan",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Rakan.png",
+          "plannerCode": 1056,
+          "traitPoints": {
+            "trait_fae": 1,
+            "trait_juggernaut": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Xayah",
+          "name": "Xayah",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Xayah.png",
+          "plannerCode": 1081,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_fae": 1,
+            "trait_rapidfire": 1
+          }
+        },
+        {
+          "id": "TFT18_Tristana",
+          "name": "Tristana",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Tristana.png",
+          "plannerCode": 1075,
+          "traitPoints": {
+            "trait_fae": 1,
+            "trait_hunter": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Lillia",
+          "name": "Lillia",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Lillia.png",
+          "plannerCode": 1042,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_fae": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxFae",
+          "name": "Lux (Fae)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxFae.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_fae": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_flora_fatalis",
+      "name": "Flora Fatalis",
+      "icon": "assets/traits/trait_flora_fatalis.png",
+      "activationThresholds": [
+        1,
+        2
+      ],
+      "units": [
+        {
+          "id": "TFT18_Fiddlesticks",
+          "name": "Fiddlesticks",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Fiddlesticks.png",
+          "plannerCode": 1024,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_flora_fatalis": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Soraka",
+          "name": "Soraka",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Soraka.png",
+          "plannerCode": 1070,
+          "traitPoints": {
+            "trait_executioner": 1,
+            "trait_flora_fatalis": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_hunter",
+      "name": "Hunter",
+      "icon": "assets/traits/trait_hunter.png",
+      "activationThresholds": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "units": [
+        {
+          "id": "TFT18_Cinderling",
+          "name": "Cinderling",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Cinderling.png",
+          "plannerCode": 1015,
+          "traitPoints": {
+            "trait_hunter": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Caitlyn",
+          "name": "Caitlyn",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Caitlyn.png",
+          "plannerCode": 1012,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_hunter": 1
+          }
+        },
+        {
+          "id": "TFT18_Tristana",
+          "name": "Tristana",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Tristana.png",
+          "plannerCode": 1075,
+          "traitPoints": {
+            "trait_fae": 1,
+            "trait_hunter": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Sivir",
+          "name": "Sivir",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Sivir.png",
+          "plannerCode": 1068,
+          "traitPoints": {
+            "trait_hunter": 1,
+            "trait_primal": 1
+          }
+        },
+        {
+          "id": "TFT18_Ashe",
+          "name": "Ashe",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Ashe.png",
+          "plannerCode": 1008,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_hunter": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_inferno",
+      "name": "Inferno",
+      "icon": "assets/traits/trait_inferno.png",
+      "activationThresholds": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "units": [
+        {
+          "id": "TFT18_Akali",
+          "name": "Akali",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Akali.png",
+          "plannerCode": 1002,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_inferno": 1,
+            "trait_ravager": 1
+          }
+        },
+        {
+          "id": "TFT18_Varus",
+          "name": "Varus",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Varus.png",
+          "plannerCode": 1077,
+          "traitPoints": {
+            "trait_inferno": 1,
+            "trait_rapidfire": 1
+          }
+        },
+        {
+          "id": "TFT18_Shen",
+          "name": "Shen",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Shen.png",
+          "plannerCode": 1067,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_inferno": 1
+          }
+        },
+        {
+          "id": "TFT18_Amumu",
+          "name": "Amumu",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Amumu.png",
+          "plannerCode": 1005,
+          "traitPoints": {
+            "trait_inferno": 1,
+            "trait_juggernaut": 1
+          }
+        },
+        {
+          "id": "TFT18_Kennen",
+          "name": "Kennen",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "crowd_control",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Kennen.png",
+          "plannerCode": 1035,
+          "traitPoints": {
+            "trait_executioner": 1,
+            "trait_inferno": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxInferno",
+          "name": "Lux (Inferno)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxInferno.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_inferno": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_invoker",
+      "name": "Invoker",
+      "icon": "assets/traits/trait_invoker.png",
+      "activationThresholds": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "units": [
+        {
+          "id": "TFT18_Pebbles",
+          "name": "Pebbles",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Pebbles.png",
+          "plannerCode": 1065,
+          "traitPoints": {
+            "trait_invoker": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Teemo",
+          "name": "Teemo",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Teemo.png",
+          "plannerCode": 1073,
+          "traitPoints": {
+            "trait_invoker": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_KogMaw",
+          "name": "Kog'Maw",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_KogMaw.png",
+          "plannerCode": 1038,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_invoker": 1
+          }
+        },
+        {
+          "id": "TFT18_AncientSentinel",
+          "name": "Ancient Sentinel",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_AncientSentinel.png",
+          "plannerCode": 1064,
+          "traitPoints": {
+            "trait_invoker": 1,
+            "trait_riftbeast": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Morgana",
+          "name": "Morgana",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Morgana.png",
+          "plannerCode": 1048,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_invoker": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_juggernaut",
+      "name": "Juggernaut",
+      "icon": "assets/traits/trait_juggernaut.png",
+      "activationThresholds": [
+        2,
+        4,
+        6
+      ],
+      "units": [
+        {
+          "id": "TFT18_Rakan",
+          "name": "Rakan",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Rakan.png",
+          "plannerCode": 1056,
+          "traitPoints": {
+            "trait_fae": 1,
+            "trait_juggernaut": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Yorick",
+          "name": "Yorick",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Yorick.png",
+          "plannerCode": 1082,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_juggernaut": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_Scuttlecrab",
+          "name": "Scuttlecrab",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Scuttlecrab.png",
+          "plannerCode": 1062,
+          "traitPoints": {
+            "trait_juggernaut": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Sejuani",
+          "name": "Sejuani",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Sejuani.png",
+          "plannerCode": 1063,
+          "traitPoints": {
+            "trait_juggernaut": 1,
+            "trait_solar": 1
+          }
+        },
+        {
+          "id": "TFT18_Vi",
+          "name": "Vi",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Vi.png",
+          "plannerCode": 1079,
+          "traitPoints": {
+            "trait_juggernaut": 1,
+            "trait_primal": 1
+          }
+        },
+        {
+          "id": "TFT18_Amumu",
+          "name": "Amumu",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Amumu.png",
+          "plannerCode": 1005,
+          "traitPoints": {
+            "trait_inferno": 1,
+            "trait_juggernaut": 1
+          }
+        },
+        {
+          "id": "TFT18_Maokai",
+          "name": "Maokai",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Maokai.png",
+          "plannerCode": 1045,
+          "traitPoints": {
+            "trait_juggernaut": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_lunar",
+      "name": "Lunar",
+      "icon": "assets/traits/trait_lunar.png",
+      "activationThresholds": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "units": [
+        {
+          "id": "TFT18_Diana",
+          "name": "Diana",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Diana.png",
+          "plannerCode": 1018,
+          "traitPoints": {
+            "trait_lunar": 1,
+            "trait_ravager": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Aphelios",
+          "name": "Aphelios",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Aphelios.png",
+          "plannerCode": 1007,
+          "traitPoints": {
+            "trait_lunar": 1,
+            "trait_rapidfire": 1
+          }
+        },
+        {
+          "id": "TFT18_Alune",
+          "name": "Alune",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Alune.png",
+          "plannerCode": 1004,
+          "traitPoints": {
+            "trait_lunar": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxLunar",
+          "name": "Lux (Lunar)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxLunar.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_lunar": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_primal",
+      "name": "Primal",
+      "icon": "assets/traits/trait_primal.png",
+      "activationThresholds": [
+        2,
+        4
+      ],
+      "units": [
+        {
+          "id": "TFT18_Vi",
+          "name": "Vi",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Vi.png",
+          "plannerCode": 1079,
+          "traitPoints": {
+            "trait_juggernaut": 1,
+            "trait_primal": 1
+          }
+        },
+        {
+          "id": "TFT18_Nidalee",
+          "name": "Nidalee",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Nidalee.png",
+          "plannerCode": 1051,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_primal": 1
+          }
+        },
+        {
+          "id": "TFT18_Sivir",
+          "name": "Sivir",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Sivir.png",
+          "plannerCode": 1068,
+          "traitPoints": {
+            "trait_hunter": 1,
+            "trait_primal": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxPrimal",
+          "name": "Lux (Primal)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxPrimal.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_primal": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_rapidfire",
+      "name": "Rapidfire",
+      "icon": "assets/traits/trait_rapidfire.png",
+      "activationThresholds": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "units": [
+        {
+          "id": "TFT18_Varus",
+          "name": "Varus",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Varus.png",
+          "plannerCode": 1077,
+          "traitPoints": {
+            "trait_inferno": 1,
+            "trait_rapidfire": 1
+          }
+        },
+        {
+          "id": "TFT18_Xayah",
+          "name": "Xayah",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Xayah.png",
+          "plannerCode": 1081,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_fae": 1,
+            "trait_rapidfire": 1
+          }
+        },
+        {
+          "id": "TFT18_Kayle",
+          "name": "Kayle",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Kayle.png",
+          "plannerCode": 1034,
+          "traitPoints": {
+            "trait_rapidfire": 1,
+            "trait_solar": 1
+          }
+        },
+        {
+          "id": "TFT18_Raptor",
+          "name": "Raptor",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Raptor.png",
+          "plannerCode": 1058,
+          "traitPoints": {
+            "trait_rapidfire": 1,
+            "trait_riftbeast": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_Aphelios",
+          "name": "Aphelios",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Aphelios.png",
+          "plannerCode": 1007,
+          "traitPoints": {
+            "trait_lunar": 1,
+            "trait_rapidfire": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_ravager",
+      "name": "Ravager",
+      "icon": "assets/traits/trait_ravager.png",
+      "activationThresholds": [
+        2,
+        4,
+        6
+      ],
+      "units": [
+        {
+          "id": "TFT18_Akali",
+          "name": "Akali",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Akali.png",
+          "plannerCode": 1002,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_inferno": 1,
+            "trait_ravager": 1
+          }
+        },
+        {
+          "id": "TFT18_Camille",
+          "name": "Camille",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Camille.png",
+          "plannerCode": 1013,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_ravager": 1
+          }
+        },
+        {
+          "id": "TFT18_Murkwolf",
+          "name": "Murkwolf",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Murkwolf.png",
+          "plannerCode": 1049,
+          "traitPoints": {
+            "trait_ravager": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Warwick",
+          "name": "Warwick",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Warwick.png",
+          "plannerCode": 1080,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_ravager": 1
+          }
+        },
+        {
+          "id": "TFT18_Diana",
+          "name": "Diana",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Diana.png",
+          "plannerCode": 1018,
+          "traitPoints": {
+            "trait_lunar": 1,
+            "trait_ravager": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Brambleback",
+          "name": "Brambleback",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Brambleback.png",
+          "plannerCode": 1011,
+          "traitPoints": {
+            "trait_ravager": 1,
+            "trait_riftbeast": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_riftbeast",
+      "name": "Riftbeast",
+      "icon": "assets/traits/trait_riftbeast.png",
+      "activationThresholds": [
+        3,
+        5,
+        7,
+        10
+      ],
+      "units": [
+        {
+          "id": "TFT18_Cinderling",
+          "name": "Cinderling",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Cinderling.png",
+          "plannerCode": 1015,
+          "traitPoints": {
+            "trait_hunter": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Pebbles",
+          "name": "Pebbles",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Pebbles.png",
+          "plannerCode": 1065,
+          "traitPoints": {
+            "trait_invoker": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Gromp",
+          "name": "Gromp",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Gromp.png",
+          "plannerCode": 1026,
+          "traitPoints": {
+            "trait_adaptor": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Murkwolf",
+          "name": "Murkwolf",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Murkwolf.png",
+          "plannerCode": 1049,
+          "traitPoints": {
+            "trait_ravager": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Scuttlecrab",
+          "name": "Scuttlecrab",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Scuttlecrab.png",
+          "plannerCode": 1062,
+          "traitPoints": {
+            "trait_juggernaut": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Krug",
+          "name": "Krug",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Krug.png",
+          "plannerCode": 1039,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_Raptor",
+          "name": "Raptor",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Raptor.png",
+          "plannerCode": 1058,
+          "traitPoints": {
+            "trait_rapidfire": 1,
+            "trait_riftbeast": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_AncientSentinel",
+          "name": "Ancient Sentinel",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_AncientSentinel.png",
+          "plannerCode": 1064,
+          "traitPoints": {
+            "trait_invoker": 1,
+            "trait_riftbeast": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Brambleback",
+          "name": "Brambleback",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Brambleback.png",
+          "plannerCode": 1011,
+          "traitPoints": {
+            "trait_ravager": 1,
+            "trait_riftbeast": 1
+          }
+        },
+        {
+          "id": "TFT18_ElderDragon",
+          "name": "Elder Dragon",
+          "cost": 5,
+          "boardSlots": 2,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_ElderDragon.png",
+          "plannerCode": 1020,
+          "traitPoints": {
+            "trait_riftbeast": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_rival",
+      "name": "Rival",
+      "icon": "assets/traits/trait_rival.png",
+      "activationThresholds": [
+        1,
+        2
+      ],
+      "units": [
+        {
+          "id": "TFT18_KhaZix",
+          "name": "Kha'Zix",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_KhaZix.png",
+          "plannerCode": 1036,
+          "traitPoints": {
+            "trait_rival": 1
+          }
+        },
+        {
+          "id": "TFT18_Rengar",
+          "name": "Rengar",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Rengar.png",
+          "plannerCode": 1060,
+          "traitPoints": {
+            "trait_rival": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_solar",
+      "name": "Solar",
+      "icon": "assets/traits/trait_solar.png",
+      "activationThresholds": [
+        3
+      ],
+      "units": [
+        {
+          "id": "TFT18_Leona",
+          "name": "Leona",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Leona.png",
+          "plannerCode": 1041,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_solar": 1
+          }
+        },
+        {
+          "id": "TFT18_Kayle",
+          "name": "Kayle",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Kayle.png",
+          "plannerCode": 1034,
+          "traitPoints": {
+            "trait_rapidfire": 1,
+            "trait_solar": 1
+          }
+        },
+        {
+          "id": "TFT18_Sejuani",
+          "name": "Sejuani",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Sejuani.png",
+          "plannerCode": 1063,
+          "traitPoints": {
+            "trait_juggernaut": 1,
+            "trait_solar": 1
+          }
+        },
+        {
+          "id": "TFT18_LuxSolar",
+          "name": "Lux (Solar)",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": "lux",
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LuxSolar.png",
+          "plannerCode": 1029,
+          "traitPoints": {
+            "trait_solar": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_spellweaver",
+      "name": "Spellweaver",
+      "icon": "assets/traits/trait_spellweaver.png",
+      "activationThresholds": [
+        2,
+        4,
+        6
+      ],
+      "units": [
+        {
+          "id": "TFT18_Karma",
+          "name": "Karma",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Karma.png",
+          "plannerCode": 1031,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Veigar",
+          "name": "Veigar",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Veigar.png",
+          "plannerCode": 1078,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_spellweaver": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_LeBlanc",
+          "name": "LeBlanc",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_LeBlanc.png",
+          "plannerCode": 1040,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Cassiopeia",
+          "name": "Cassiopeia",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Cassiopeia.png",
+          "plannerCode": 1014,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Fiddlesticks",
+          "name": "Fiddlesticks",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Fiddlesticks.png",
+          "plannerCode": 1024,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_flora_fatalis": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Ahri",
+          "name": "Ahri",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Ahri.png",
+          "plannerCode": 1001,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_spellweaver": 1
+          }
+        },
+        {
+          "id": "TFT18_Alune",
+          "name": "Alune",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Alune.png",
+          "plannerCode": 1004,
+          "traitPoints": {
+            "trait_lunar": 1,
+            "trait_spellweaver": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_sprykin",
+      "name": "Sprykin",
+      "icon": "assets/traits/trait_sprykin.png",
+      "activationThresholds": [
+        3,
+        5,
+        7
+      ],
+      "units": [
+        {
+          "id": "TFT18_Kobuko",
+          "name": "Kobuko",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Kobuko.png",
+          "plannerCode": 1085,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Veigar",
+          "name": "Veigar",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Veigar.png",
+          "plannerCode": 1078,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_spellweaver": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Teemo",
+          "name": "Teemo",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Teemo.png",
+          "plannerCode": 1073,
+          "traitPoints": {
+            "trait_invoker": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Rammus",
+          "name": "Rammus",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Rammus.png",
+          "plannerCode": 1057,
+          "traitPoints": {
+            "trait_defender": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Tristana",
+          "name": "Tristana",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Tristana.png",
+          "plannerCode": 1075,
+          "traitPoints": {
+            "trait_fae": 1,
+            "trait_hunter": 1,
+            "trait_sprykin": 1
+          }
+        },
+        {
+          "id": "TFT18_Gnar",
+          "name": "Gnar",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Gnar.png",
+          "plannerCode": 1025,
+          "traitPoints": {
+            "trait_brawler": 1,
+            "trait_elderwood": 1,
+            "trait_sprykin": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_summoner",
+      "name": "Summoner",
+      "icon": "assets/traits/trait_summoner.png",
+      "activationThresholds": [
+        2,
+        3
+      ],
+      "units": [
+        {
+          "id": "TFT18_Yorick",
+          "name": "Yorick",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Yorick.png",
+          "plannerCode": 1082,
+          "traitPoints": {
+            "trait_blossom": 1,
+            "trait_juggernaut": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_Azir",
+          "name": "Azir",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Azir.png",
+          "plannerCode": 1009,
+          "traitPoints": {
+            "trait_blackthorn": 1,
+            "trait_executioner": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_Raptor",
+          "name": "Raptor",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "carry",
+            "damage"
+          ],
+          "icon": "assets/units/TFT18_Raptor.png",
+          "plannerCode": 1058,
+          "traitPoints": {
+            "trait_rapidfire": 1,
+            "trait_riftbeast": 1,
+            "trait_summoner": 1
+          }
+        },
+        {
+          "id": "TFT18_Zyra",
+          "name": "Zyra",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "damage",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Zyra.png",
+          "plannerCode": 1084,
+          "traitPoints": {
+            "trait_summoner": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "trait_vanguard",
+      "name": "Vanguard",
+      "icon": "assets/traits/trait_vanguard.png",
+      "activationThresholds": [
+        2,
+        4,
+        6
+      ],
+      "units": [
+        {
+          "id": "TFT18_Rakan",
+          "name": "Rakan",
+          "cost": 1,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Rakan.png",
+          "plannerCode": 1056,
+          "traitPoints": {
+            "trait_fae": 1,
+            "trait_juggernaut": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Elise",
+          "name": "Elise",
+          "cost": 2,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Elise.png",
+          "plannerCode": 1021,
+          "traitPoints": {
+            "trait_coven": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Diana",
+          "name": "Diana",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "damage",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Diana.png",
+          "plannerCode": 1018,
+          "traitPoints": {
+            "trait_lunar": 1,
+            "trait_ravager": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Hecarim",
+          "name": "Hecarim",
+          "cost": 3,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline"
+          ],
+          "icon": "assets/units/TFT18_Hecarim.png",
+          "plannerCode": 1027,
+          "traitPoints": {
+            "trait_elderwood": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_AncientSentinel",
+          "name": "Ancient Sentinel",
+          "cost": 4,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "crowd_control",
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_AncientSentinel.png",
+          "plannerCode": 1064,
+          "traitPoints": {
+            "trait_invoker": 1,
+            "trait_riftbeast": 1,
+            "trait_vanguard": 1
+          }
+        },
+        {
+          "id": "TFT18_Taric",
+          "name": "Taric",
+          "cost": 5,
+          "boardSlots": 1,
+          "uniqueGroup": null,
+          "roleTags": [
+            "frontline",
+            "support"
+          ],
+          "icon": "assets/units/TFT18_Taric.png",
+          "plannerCode": 1072,
+          "traitPoints": {
+            "trait_vanguard": 1
+          }
+        }
+      ]
+    }
+  ]
+}
